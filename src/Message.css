@@ -1,0 +1,40 @@
+.message {
+    padding:10px;
+    margin-top: 10px;
+    max-width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+}
+.message__user {
+    margin-right: auto;
+    text-align: center;
+    max-width: fit-content;
+    padding:10px;
+    margin-right: 10px;
+}
+.userCard {
+    background: #3f51b5 !important;
+    color: #ffff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guestCard {
+    background: #bbbbbb !important;
+    color: #ffff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__content {
+    overflow-wrap: break-word !important;
+    max-width: 100%;
+    padding: 0px 10px !important;
+}
+.message__text {
+    font-size: .8rem !important;
+    line-height: 1.5 !important;
+    font-weight: lighter !important;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
